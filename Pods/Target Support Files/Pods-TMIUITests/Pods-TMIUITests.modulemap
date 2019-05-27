@@ -1,0 +1,6 @@
+framework module Pods_TMIUITests {
+  umbrella header "Pods-TMIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

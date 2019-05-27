@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>405071815867-54imanngiouglihk9a7k4e3ukuc27bj3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405071815867-54imanngiouglihk9a7k4e3ukuc27bj3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAsaZZCaeA88hYmOncAMRnf4RF6BYjaKYU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405071815867</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.hait.TMI</string>
+	<key>PROJECT_ID</key>
+	<string>sookmyungtmi</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sookmyungtmi.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405071815867:ios:a23a9acb9a68cb1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://sookmyungtmi.firebaseio.com</string>
+</dict>
+</plist>
