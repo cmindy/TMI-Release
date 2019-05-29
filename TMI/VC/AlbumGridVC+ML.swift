@@ -555,23 +555,3 @@ enum Category: String {
     case others = "others"
 }
 
-//키워드로 스크린샷 서치
-/*   func screenshotSearch(keyword: String){
- let request: NSFetchRequest<Screenshot> = Screenshot.fetchRequest()
- request.predicate = NSPredicate(format: "content CONTAINS[cd] %@", keyword)
- do{
- fetchedRecordArray = try context.fetch(request) //조건에 맞는 레코드들 저장
- }catch{
- print("coredata fetch error")
- }
- if(fetchedRecordArray.count > 0){
- for textRecord in fetchedRecordArray{
- //각 레코드들의 localIdentifier만 따로 배열에 저장 후 이를 이용해 뷰에 사진 보여주기
- let aTextRecord:Screenshot = textRecord
- searchedLocalIdentifier.append(aTextRecord.localIdentifier!)
- }
- }
- fetchedRecordArray.removeAll()
- searchedLocalIdentifier.removeAll()
- }
- */

@@ -12,10 +12,6 @@ import CoreData
 
 class AlbumGridVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
-    @IBAction func mlBtn(_ sender: Any) {
-        UserDefaults.standard.set(false, forKey: "theFirstRun")
-    }
-    
     @IBOutlet weak var albumGridCollectionView: UICollectionView!
     
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -200,6 +196,7 @@ class AlbumGridVC: UIViewController, UICollectionViewDelegate, UICollectionViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         navigationController?.navigationBar.shadowImage = UIImage()
